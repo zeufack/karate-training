@@ -1,0 +1,2434 @@
+09:44:02.903 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/examples/users/users.feature
+09:44:03.614 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:44:05.157 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:44:05.654 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:44:07.222 [main] DEBUG com.intuit.karate - response time in milliseconds: 1524
+1 < 200
+1 < Date: Thu, 31 Mar 2022 08:44:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < x-powered-by: Express
+1 < x-ratelimit-limit: 1000
+1 < x-ratelimit-remaining: 999
+1 < x-ratelimit-reset: 1639295195
+1 < vary: Origin, Accept-Encoding
+1 < access-control-allow-credentials: true
+1 < cache-control: max-age=43200
+1 < pragma: no-cache
+1 < expires: -1
+1 < x-content-type-options: nosniff
+1 < etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 21492
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=e6sfgl%2BXo7bny8TBZR6UVthsQVraRMiNowRGFZKhQ3ITloP4SCfmrDWd7Bd76I2eXNTSzoRcQQ%2F%2BXlGXcQLQXQGSseHApf%2BwVw%2FtM4Ov%2BuMzTXOt4L3u9g27U9p7OG0bB7lC3V7T3KnlPffZdMSj"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f47cd1faa6f75e1-LHR
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+09:44:07.250 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+09:44:07.843 [main] DEBUG com.intuit.karate - response time in milliseconds: 591
+2 < 200
+2 < Date: Thu, 31 Mar 2022 08:44:07 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < x-powered-by: Express
+2 < x-ratelimit-limit: 1000
+2 < x-ratelimit-remaining: 997
+2 < x-ratelimit-reset: 1635233070
+2 < vary: Origin, Accept-Encoding
+2 < access-control-allow-credentials: true
+2 < cache-control: max-age=43200
+2 < pragma: no-cache
+2 < expires: -1
+2 < x-content-type-options: nosniff
+2 < etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 9827
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=691yWgqcUfw8H9vOIsQcj28%2FcWnTLssXsauBfpWp1ndrvg4oKAQ32k5Yjn8hSB1z1IgkMXjMMBmwyPaHJGW%2FLi0Iq2lLq5ECZ4%2FoIvUHFSBEUBlRr83bBlOlC0aS%2FKOxtwmTkSgLyJAvur%2B1bokq"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6f47cd243adc75e3-LHR
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+09:44:07.923 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:44:08.016 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+09:44:08.795 [main] DEBUG com.intuit.karate - response time in milliseconds: 777
+1 < 201
+1 < Date: Thu, 31 Mar 2022 08:44:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1648716258
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jcgjIe85WqO1asbp4j7cG5lRhmwlnQ0SrUqeYTubr3j84Fao75K9MSMTZny85i3hBqpzHOfU%2BuuZLTW0kBCv9xTA%2Fb7eQUOFIzLd1RAGnUDA8lFQsbscXzOGU0deqo%2Bm999aCAaiVsBgEkgJQC5o"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f47cd292a4888af-LHR
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+09:44:08.826 [main] INFO  com.intuit.karate - [print] created id is:  11 
+10:08:51.657 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/examples/users
+10:08:52.085 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:08:52.821 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:08:53.069 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:08:55.263 [main] DEBUG com.intuit.karate - response time in milliseconds: 2159
+1 < 200
+1 < Date: Thu, 31 Mar 2022 09:08:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1646390243
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 13546
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1m4xtDYYObfWwXUD0LLax0bLk%2BEERmRix9xzXaGep2xnFFBSd6vANwyFaPhxNp5fXvfeva9nSUBFxMfTEsm88HTp7zjZCu%2BY%2BUDlida%2FIzYJHLRskPQGA9yTENgZZCp6TZ0i0GMxhO%2BsJg93Rnjc"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f47f1728ae89500-LIS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+10:08:55.293 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+10:08:56.851 [main] DEBUG com.intuit.karate - response time in milliseconds: 1549
+2 < 200
+2 < Date: Thu, 31 Mar 2022 09:08:56 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1647776415
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: REVALIDATED
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rzigIYcEySt7M742OzEafjWx3lXJ2hkvtQI5UrJbH5DXkydyD%2B8IuO6BsOFRd9Ff6XCOeyJDLGvTxOhp1%2BEQIdObHpIrl0aMhJSqWn8Mt818JwYD7fgjbozoGm3vbIIVOS3zveG9JfC2o93VFQEn"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6f47f17c286503be-LIS
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+10:08:56.887 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:08:56.942 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+10:08:58.694 [main] DEBUG com.intuit.karate - response time in milliseconds: 1749
+1 < 201
+1 < Date: Thu, 31 Mar 2022 09:08:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1648717758
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qNc5gEkOgf5tYZOyjZ7voRgsOmXPkxEjI0Ehp4Hw%2FoImL%2B999mpVWTCYV81HtXMerkuYcGQdb0vxf%2Fq%2BrUpGqpfZmRmw1lGEUn5uuGdiNnm0bSLYMezO%2FYDIxneEXpoX0QY1a7T%2FIiZ8nhYb%2FfE3"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f47f18809599501-LIS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+10:08:58.715 [main] INFO  com.intuit.karate - [print] created id is:  11 
+11:39:17.242 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/examples/users/users.feature:7
+11:39:17.681 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:39:17.708 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+11:39:18.468 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:39:18.816 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+11:39:21.000 [main] DEBUG com.intuit.karate - response time in milliseconds: 2181
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Date: Thu, 31 Mar 2022 10:39:20 GMT
+1 < Via: 1.1 vegur
+{"message":"user already exists","statusCode":400}
+11:42:04.997 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:42:05.677 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:42:05.981 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+11:42:08.274 [main] DEBUG com.intuit.karate - response time in milliseconds: 2287
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Date: Thu, 31 Mar 2022 10:42:08 GMT
+1 < Via: 1.1 vegur
+{"message":"user already exists","statusCode":400}
+11:42:08.304 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:42:08.310 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+11:42:14.998 [main] DEBUG com.intuit.karate - response time in milliseconds: 6687
+1 < 201
+1 < Date: Thu, 31 Mar 2022 10:42:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1648723338
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7FI5XjpK8rYfBiZmLgBT6aGeg7Vom%2FKsGm8DUAxqCfGoGXEnTrfposWxTxrhCJItqhjXYT3jP1bV%2FjTqXnEHOffp5tKQoqTNPGH%2BLWvZe2BIVk%2BQ0jAdHxDmEtN0fStpx8XId46ndV18hQj%2BSJ%2BD"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f487a2938099506-LIS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+11:42:15.014 [main] INFO  com.intuit.karate - [print] created id is:  11 
+11:50:54.834 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/examples/users/users.feature:6
+11:50:55.399 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:50:55.436 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6
+11:50:56.320 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:50:56.711 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+11:50:59.182 [main] DEBUG com.intuit.karate - response time in milliseconds: 2466
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Date: Thu, 31 Mar 2022 10:50:58 GMT
+1 < Via: 1.1 vegur
+{"message":"user already exists","statusCode":400}
+12:10:08.872 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/examples/users/users.feature:7
+12:10:09.309 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:10:09.329 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+12:10:09.962 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:10:10.229 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+12:10:12.680 [main] DEBUG com.intuit.karate - response time in milliseconds: 2444
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Date: Thu, 31 Mar 2022 11:10:12 GMT
+1 < Via: 1.1 vegur
+{"message":"user already exists","statusCode":400}
+15:09:31.628 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/ztrainapi/users/users.feature:7
+15:09:32.052 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:09:32.083 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:09:32.925 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:33.310 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+15:09:53.927 [main] DEBUG com.intuit.karate - response time in milliseconds: 20612
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Date: Thu, 31 Mar 2022 14:09:53 GMT
+1 < Via: 1.1 vegur
+{"message":"user already exists","statusCode":400}
+15:21:10.217 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/ztrainapi/users
+15:21:10.625 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:21:11.476 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:21:11.855 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+15:21:14.722 [main] DEBUG com.intuit.karate - response time in milliseconds: 2865
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Date: Thu, 31 Mar 2022 14:21:14 GMT
+1 < Via: 1.1 vegur
+{"message":"user already exists","statusCode":400}
+15:21:14.739 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:21:14.748 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+15:21:17.615 [main] DEBUG com.intuit.karate - response time in milliseconds: 2865
+1 < 201
+1 < Date: Thu, 31 Mar 2022 14:21:17 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1648736478
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FNAiTw%2FQb5bylahcf1AgYTHwX5fcMz9VEsajJJtajIdPSwCxI5h2Noc5jTwTVcpjMBU0N54ONKPjmmC5QCYjVvXs8PxvYf210RYudaQL9Ggo%2Fkq7UnS8Q6UfkZkjfSNqDnwZibfJcppALwsKnPKZ"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f49bb00fbd4da6a-LIS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+15:21:17.643 [main] INFO  com.intuit.karate - [print] created id is:  11 
+17:05:09.221 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/ztrainapi/users/users.feature:28
+17:05:34.790 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/ztrainapi/users/users.feature:28
+17:05:35.203 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:05:35.231 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 28
+17:05:36.299 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+17:05:44.556 [main] DEBUG com.intuit.karate - response time in milliseconds: 8252
+1 < 201
+1 < Date: Thu, 31 Mar 2022 16:05:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1648742778
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=M8vmZTa1JqtRpm5qOirwbon7xy6o%2BnlEAcCnc4f6GNyOEDRTVuZ%2B1YvuMrSFkFP0MfZmDClLBVshfYRO%2BXWpH24SklqrfHebpNtBaA6GFD8qDmjohV5wCeDWpvHIMs3HRy9E2hMZO1G6fEep9LnL"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f4a54057a7803f6-LIS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+17:05:44.573 [main] INFO  com.intuit.karate - [print] created id is:  11 
+17:08:37.911 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/ztrainapi/users/users.feature:7
+17:08:38.359 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:08:38.381 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+17:08:39.346 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+17:08:49.369 [main] ERROR com.intuit.karate - java.net.UnknownHostException: ztrain-shop.herokuapp.com: Name or service not known, http call failed after 10217 milliseconds for url: https://ztrain-shop.herokuapp.com/user/register
+17:08:49.372 [main] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:19
+When method post
+http call failed after 10217 milliseconds for url: https://ztrain-shop.herokuapp.com/user/register
+src/test/java/ztrainapi/users/users.feature:19
+17:12:42.540 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/ztrainapi/users/users.feature:7
+17:12:43.055 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:12:43.099 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+17:12:44.413 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+17:12:47.251 [main] DEBUG com.intuit.karate - response time in milliseconds: 2832
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Date: Thu, 31 Mar 2022 16:12:46 GMT
+1 < Via: 1.1 vegur
+{"message":"user already exists","statusCode":400}
+12:50:00.234 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+12:50:00.514 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:50:00.517 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649073000517
+12:50:00.557 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+12:50:01.699 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+12:50:20.428 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 18720
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Date: Mon, 04 Apr 2022 11:50:20 GMT
+1 < Via: 1.1 vegur
+{"message":"user already exists","statusCode":400}
+12:50:20.888 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+15:03:42.335 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:03:42.497 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:03:42.497 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649081022497
+15:03:42.518 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:03:43.596 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"dklsjdfl","email":"test@test.com"}
+
+15:03:45.916 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2312
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 74
+1 < Etag: W/"4a-QWTfUQIyJNncNAPqOVWVknB+vck"
+1 < Date: Mon, 04 Apr 2022 14:03:45 GMT
+1 < Via: 1.1 vegur
+{"message":"Mot de passe invalid","error":"Unauthorized","statusCode":401}
+15:03:45.922 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:18
+Then status 400
+status code was: 401, expected: 400, response time in milliseconds: 2312, url: https://ztrain-shop.herokuapp.com/auth/login, response: 
+{"statusCode":401,"message":"Mot de passe invalid","error":"Unauthorized"}
+src/test/java/ztrainapi/users/users.feature:18
+15:03:46.395 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+15:07:06.422 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:07:06.571 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:07:06.571 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649081226571
+15:07:06.593 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:07:07.579 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"dklsjdfl","email":"test@test.com"}
+
+15:07:10.731 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 3148
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 74
+1 < Etag: W/"4a-QWTfUQIyJNncNAPqOVWVknB+vck"
+1 < Date: Mon, 04 Apr 2022 14:07:10 GMT
+1 < Via: 1.1 vegur
+{"message":"Mot de passe invalid","error":"Unauthorized","statusCode":401}
+15:07:11.201 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+15:28:03.165 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:28:03.331 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/ztrainapi/users/users.feature - mismatched input 'E' expecting <EOF>
+15:28:37.695 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:28:37.911 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:28:37.912 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649082517912
+15:28:37.946 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:28:39.091 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 43
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"<password>","email":"<email>"}
+
+15:28:41.250 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2149
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 77
+1 < Etag: W/"4d-jYTTf+uHDpur+UVxEWx/0ijBEQ0"
+1 < Date: Mon, 04 Apr 2022 14:28:40 GMT
+1 < Via: 1.1 vegur
+{"message":["email must be an email"],"error":"Bad Request","statusCode":400}
+15:28:41.255 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:19
+Then status <port>
+no step-definition method match found for: status <port>
+src/test/java/ztrainapi/users/users.feature:19
+15:28:41.666 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+15:29:12.930 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:29:13.112 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/ztrainapi/users/users.feature - mismatched input 'E' expecting <EOF>
+15:29:26.996 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:29:27.175 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/ztrainapi/users/users.feature - mismatched input 'E' expecting <EOF>
+15:31:35.088 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:31:35.351 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/ztrainapi/users/users.feature - extraneous input '\n  Examples:' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+15:32:18.097 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:32:18.291 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/ztrainapi/users/users.feature - extraneous input '\n  Examples:' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+15:33:01.401 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:33:01.587 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/ztrainapi/users/users.feature - extraneous input '\n  Examples:' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+15:34:28.590 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:34:28.918 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/ztrainapi/users/users.feature - extraneous input '\n  Examples:' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+15:34:55.084 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: ztrainapi/users/users.feature - extraneous input '\n  Examples:' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+15:36:01.982 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:36:02.212 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/ztrainapi/users/users.feature - extraneous input '\n  Examples:' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+15:36:24.696 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:36:24.858 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:36:24.859 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649082984859
+15:36:24.883 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:36:26.031 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 43
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"<password>","email":"<email>"}
+
+15:36:30.752 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 4717
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 77
+1 < Etag: W/"4d-jYTTf+uHDpur+UVxEWx/0ijBEQ0"
+1 < Date: Mon, 04 Apr 2022 14:36:30 GMT
+1 < Via: 1.1 vegur
+{"message":["email must be an email"],"error":"Bad Request","statusCode":400}
+15:36:30.754 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:19
+Then status <port>
+no step-definition method match found for: status <port>
+src/test/java/ztrainapi/users/users.feature:19
+15:36:31.208 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+15:36:55.644 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:36:56.589 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 43
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"<password>","email":"<email>"}
+
+15:36:59.496 [main] DEBUG com.intuit.karate - response time in milliseconds: 2903
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 77
+1 < Etag: W/"4d-jYTTf+uHDpur+UVxEWx/0ijBEQ0"
+1 < Date: Mon, 04 Apr 2022 14:36:59 GMT
+1 < Via: 1.1 vegur
+{"message":["email must be an email"],"error":"Bad Request","statusCode":400}
+15:36:59.503 [main] ERROR com.intuit.karate - classpath:ztrainapi/users/users.feature:19
+Then status <port>
+no step-definition method match found for: status <port>
+classpath:ztrainapi/users/users.feature:19
+15:36:59.532 [main] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/user/register
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 82
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"password","adress":"douala bassong","email":"test@test.com","age":10}
+
+15:37:02.330 [main] DEBUG com.intuit.karate - response time in milliseconds: 2798
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Etag: W/"32-m8IvBXktbfCfHP0KptGK0OUMbgE"
+1 < Date: Mon, 04 Apr 2022 14:37:01 GMT
+1 < Via: 1.1 vegur
+{"message":"user already exists","statusCode":400}
+15:37:02.361 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+15:37:04.932 [main] DEBUG com.intuit.karate - response time in milliseconds: 2569
+1 < 201
+1 < Date: Mon, 04 Apr 2022 14:37:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1649083057
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LZm1d3dhA7AApO6Xm5NO9BcqVlJy7xZ0bl%2FJvwDhzRhHPgjtgVccnJm14mGjT8ouTOT8T7yFU3I3FIFxMss7agl31v2PIE%2FdAtgeJiMCE7%2FwQDk8pPGl78bibwf9DBLCK11q5xq2aIxTPYhwf82k"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6f6ac7a49e4703c2-LIS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+15:37:04.959 [main] INFO  com.intuit.karate - [print] created id is:  11 
+15:38:05.064 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:38:05.253 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:38:05.255 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649083085254
+15:38:05.281 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:38:06.346 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 43
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"<password>","email":"<email>"}
+
+15:38:09.363 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 3013
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 77
+1 < Etag: W/"4d-jYTTf+uHDpur+UVxEWx/0ijBEQ0"
+1 < Date: Mon, 04 Apr 2022 14:38:09 GMT
+1 < Via: 1.1 vegur
+{"message":["email must be an email"],"error":"Bad Request","statusCode":400}
+15:38:09.366 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:19
+Then status <port>
+no step-definition method match found for: status <port>
+src/test/java/ztrainapi/users/users.feature:19
+15:38:09.942 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+15:40:23.561 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:40:23.754 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/ztrainapi/users/users.feature - extraneous input '\n  Examples:' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+15:45:00.478 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:45:00.675 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:45:00.676 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649083500676
+15:45:00.715 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:45:01.662 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 51
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"23opujlllkjh","email":"test@test.com"}
+
+15:45:04.058 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2390
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 74
+1 < Etag: W/"4a-QWTfUQIyJNncNAPqOVWVknB+vck"
+1 < Date: Mon, 04 Apr 2022 14:45:03 GMT
+1 < Via: 1.1 vegur
+{"message":"Mot de passe invalid","error":"Unauthorized","statusCode":401}
+15:45:04.065 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:19
+Then status 200
+status code was: 401, expected: 200, response time in milliseconds: 2390, url: https://ztrain-shop.herokuapp.com/auth/login, response: 
+{"statusCode":401,"message":"Mot de passe invalid","error":"Unauthorized"}
+src/test/java/ztrainapi/users/users.feature:19
+15:45:04.067 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:45:04.084 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 43
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"hddj","email":"test@test.com"}
+
+15:45:05.883 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1798
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Etag: W/"6c-MrUO91xUVrp1Pl8PqHQWAjJ8LqI"
+1 < Date: Mon, 04 Apr 2022 14:45:05 GMT
+1 < Via: 1.1 vegur
+{"message":["password must be longer than or equal to 8 characters"],"error":"Bad Request","statusCode":400}
+15:45:05.887 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:19
+Then status 401
+status code was: 400, expected: 401, response time in milliseconds: 1798, url: https://ztrain-shop.herokuapp.com/auth/login, response: 
+{"statusCode":400,"message":["password must be longer than or equal to 8 characters"],"error":"Bad Request"}
+src/test/java/ztrainapi/users/users.feature:19
+15:45:05.889 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:45:05.915 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"hddj","email":"te@test.com"}
+
+15:45:08.142 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2225
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Etag: W/"6c-MrUO91xUVrp1Pl8PqHQWAjJ8LqI"
+1 < Date: Mon, 04 Apr 2022 14:45:07 GMT
+1 < Via: 1.1 vegur
+{"message":["password must be longer than or equal to 8 characters"],"error":"Bad Request","statusCode":400}
+15:45:08.623 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+15:46:41.562 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:46:41.716 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:46:41.717 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649083601717
+15:46:41.739 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:46:42.663 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 51
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"23opujlllkjh","email":"test@test.com"}
+
+15:46:44.808 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2141
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 74
+1 < Etag: W/"4a-QWTfUQIyJNncNAPqOVWVknB+vck"
+1 < Date: Mon, 04 Apr 2022 14:46:44 GMT
+1 < Via: 1.1 vegur
+{"message":"Mot de passe invalid","error":"Unauthorized","statusCode":401}
+15:46:44.813 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:46:44.838 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 43
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"hddj","email":"test@test.com"}
+
+15:46:46.438 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1599
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Etag: W/"6c-MrUO91xUVrp1Pl8PqHQWAjJ8LqI"
+1 < Date: Mon, 04 Apr 2022 14:46:46 GMT
+1 < Via: 1.1 vegur
+{"message":["password must be longer than or equal to 8 characters"],"error":"Bad Request","statusCode":400}
+15:46:46.444 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:46:46.478 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"hddj","email":"te@test.com"}
+
+15:46:47.937 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1459
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Etag: W/"6c-MrUO91xUVrp1Pl8PqHQWAjJ8LqI"
+1 < Date: Mon, 04 Apr 2022 14:46:47 GMT
+1 < Via: 1.1 vegur
+{"message":["password must be longer than or equal to 8 characters"],"error":"Bad Request","statusCode":400}
+15:46:47.945 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:19
+Then status 401
+status code was: 400, expected: 401, response time in milliseconds: 1459, url: https://ztrain-shop.herokuapp.com/auth/login, response: 
+{"statusCode":400,"message":["password must be longer than or equal to 8 characters"],"error":"Bad Request"}
+src/test/java/ztrainapi/users/users.feature:19
+15:46:48.419 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+15:47:42.260 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:47:42.423 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:47:42.424 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649083662424
+15:47:42.453 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:47:43.303 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 51
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"23opujlllkjh","email":"test@test.com"}
+
+15:47:46.465 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 3156
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 74
+1 < Etag: W/"4a-QWTfUQIyJNncNAPqOVWVknB+vck"
+1 < Date: Mon, 04 Apr 2022 14:47:46 GMT
+1 < Via: 1.1 vegur
+{"message":"Mot de passe invalid","error":"Unauthorized","statusCode":401}
+15:47:46.471 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:47:46.489 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 43
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"hddj","email":"test@test.com"}
+
+15:47:48.288 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1798
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Etag: W/"6c-MrUO91xUVrp1Pl8PqHQWAjJ8LqI"
+1 < Date: Mon, 04 Apr 2022 14:47:47 GMT
+1 < Via: 1.1 vegur
+{"message":["password must be longer than or equal to 8 characters"],"error":"Bad Request","statusCode":400}
+15:47:48.293 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+15:47:48.318 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"hddj","email":"te@test.com"}
+
+15:47:50.022 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1703
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 108
+1 < Etag: W/"6c-MrUO91xUVrp1Pl8PqHQWAjJ8LqI"
+1 < Date: Mon, 04 Apr 2022 14:47:49 GMT
+1 < Via: 1.1 vegur
+{"message":["password must be longer than or equal to 8 characters"],"error":"Bad Request","statusCode":400}
+15:47:50.427 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+16:01:03.649 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: ztrainapi/products/products.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+17:10:45.219 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+17:10:45.431 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:10:45.434 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649088645433
+17:10:45.473 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 43
+17:10:46.985 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+17:10:49.533 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2540
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-CF/zqPvu6tMIdebGwORFEiCyO8s"
+1 < Date: Mon, 04 Apr 2022 16:10:49 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTA4ODY0OSwiZXhwIjoxNjQ5MTc1MDQ5fQ.WIrIp4084VdXXLgAlgBcYTD11Qwftg6LG8orqLffiDg"}
+17:10:49.539 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:55
+Then status 404
+status code was: 201, expected: 404, response time in milliseconds: 2540, url: https://ztrain-shop.herokuapp.com/auth/login, response: 
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTA4ODY0OSwiZXhwIjoxNjQ5MTc1MDQ5fQ.WIrIp4084VdXXLgAlgBcYTD11Qwftg6LG8orqLffiDg"}
+src/test/java/ztrainapi/users/users.feature:55
+17:10:50.062 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+17:12:32.443 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+17:12:32.595 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:12:32.596 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649088752596
+17:12:32.629 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 43
+17:12:33.656 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+17:12:35.904 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2241
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-OWyyCUiHPR62UiA7ji94EITr5gA"
+1 < Date: Mon, 04 Apr 2022 16:12:35 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTA4ODc1NSwiZXhwIjoxNjQ5MTc1MTU1fQ.LFnhxpaNCCc8IsMscPWTd2hmgTmQ8_3D4ni5fi1CVG8"}
+17:12:35.908 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:55
+Then status 404
+status code was: 201, expected: 404, response time in milliseconds: 2241, url: https://ztrain-shop.herokuapp.com/auth/login, response: 
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTA4ODc1NSwiZXhwIjoxNjQ5MTc1MTU1fQ.LFnhxpaNCCc8IsMscPWTd2hmgTmQ8_3D4ni5fi1CVG8"}
+src/test/java/ztrainapi/users/users.feature:55
+17:12:36.360 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+17:14:42.960 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+17:14:43.148 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:14:43.150 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649088883149
+09:04:31.609 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+09:04:31.888 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:04:31.890 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649145871890
+09:04:31.941 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 44
+09:04:33.219 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+09:04:48.436 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - java.net.UnknownHostException: ztrain-shop.herokuapp.com: Name or service not known, http call failed after 15507 milliseconds for url: https://ztrain-shop.herokuapp.com/auth/login
+09:04:48.437 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:55
+When method post
+http call failed after 15507 milliseconds for url: https://ztrain-shop.herokuapp.com/auth/login
+src/test/java/ztrainapi/users/users.feature:55
+09:04:48.957 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+09:07:32.340 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+09:07:32.556 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:07:32.557 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649146052557
+09:07:32.596 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 44
+09:07:33.763 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+09:08:16.059 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 42290
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-cgOwAuuYeUXueZZgz2X8j/qK5C8"
+1 < Date: Tue, 05 Apr 2022 08:08:15 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE0NjA5NSwiZXhwIjoxNjQ5MjMyNDk1fQ.FJ2WRMrqX6zNdWPABEw4AGvpqJ3QJTBJe8AHTbfU3oU"}
+09:08:16.064 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/users/users.feature:56
+Then status 404
+status code was: 201, expected: 404, response time in milliseconds: 42290, url: https://ztrain-shop.herokuapp.com/auth/login, response: 
+{"user":{"_id":"620f561ae826bc0b18331a6e","createdAt":"2022-02-17T15:14:20.932Z","adress":"douala bassong","age":10,"email":"test@test.com","__v":0},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE0NjA5NSwiZXhwIjoxNjQ5MjMyNDk1fQ.FJ2WRMrqX6zNdWPABEw4AGvpqJ3QJTBJe8AHTbfU3oU"}
+src/test/java/ztrainapi/users/users.feature:56
+09:08:16.529 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+09:09:38.126 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+09:09:38.332 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:09:38.334 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649146178334
+09:09:38.367 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 44
+09:09:39.473 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+09:10:16.603 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 37124
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-LAflIbkjN+lqeYh7gi0JY8jI508"
+1 < Date: Tue, 05 Apr 2022 08:10:11 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE0NjIxMSwiZXhwIjoxNjQ5MjMyNjExfQ.EoH5FapyHy7arwL9ogBR0UoXP1xyx0B8fVoMlATe1oQ"}
+09:10:17.009 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/users.feature
+10:44:31.000 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+10:44:31.150 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:44:31.151 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649151871151
+10:44:31.181 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 12
+10:44:32.335 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"dklsjdfl","email":"test@test.com"}
+
+10:44:35.640 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 3299
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 74
+1 < Etag: W/"4a-QWTfUQIyJNncNAPqOVWVknB+vck"
+1 < Date: Tue, 05 Apr 2022 09:44:35 GMT
+1 < Via: 1.1 vegur
+{"message":"Mot de passe invalid","error":"Unauthorized","statusCode":401}
+10:44:36.135 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/userSigin.feature
+10:52:08.317 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+10:52:08.473 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:52:08.474 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649152328474
+10:52:09.367 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+10:52:19.357 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 9988
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-tAG9jVBJCDB0wCrvOF6Q2A6oTS8"
+1 < Date: Tue, 05 Apr 2022 09:52:19 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1MjMzOSwiZXhwIjoxNjQ5MjM4NzM5fQ.8IN73RsmmV7YN6dAB6CYALNd2GRzG2RjyusDZO5cqvc"}
+10:52:19.830 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/users/userSigin.feature
+11:04:20.438 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:04:20.580 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:04:20.580 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649153060580
+11:04:21.310 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:4
+* def signIn = call read('classpath:userSignin.feature')
+>>>> js failed:
+01: read('classpath:userSignin.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: userSignin.feature
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:120)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:63)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/ztrainapi/products/products.feature:4
+11:04:21.868 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:07:00.193 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:07:00.364 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:07:00.365 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649153220365
+11:07:01.123 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:4
+* def signIn = call read('classpath:userSignin.feature')
+>>>> js failed:
+01: read('classpath:userSignin.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: userSignin.feature
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:120)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:63)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/ztrainapi/products/products.feature:4
+11:07:01.704 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:08:25.755 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:08:25.918 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:08:25.919 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649153305919
+11:08:26.765 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:4
+* def signIn = call read('classpath:userSignin.feature')
+>>>> js failed:
+01: read('classpath:userSignin.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: userSignin.feature
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:120)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:63)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/ztrainapi/products/products.feature:4
+11:08:27.320 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:25:46.120 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:25:46.254 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:25:46.255 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649154346255
+11:25:47.222 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+11:25:50.034 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2805
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-wnNaHzKfXBd59LxV01NDS0OcmPM"
+1 < Date: Tue, 05 Apr 2022 10:25:49 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NDM0OSwiZXhwIjoxNjQ5MjQwNzQ5fQ.Yl_evI7utV0XCwh8rH7tZY2a7yjJRvZ61B44rmeZayU"}
+11:25:50.053 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/cart/delete
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:25:51.841 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1787
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Etag: W/"4b-Nz+MPMtAYq8bZcNbfKCfIYQtN7k"
+1 < Date: Tue, 05 Apr 2022 10:25:51 GMT
+1 < Via: 1.1 vegur
+{"message":"Cannot POST \/cart\/delete","error":"Not Found","statusCode":404}
+11:25:51.856 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:9
+Then match response == {"message": "product remove cart successfully"}
+match failed: EQUALS
+  $ | not equal | actual has 2 more key(s) than expected - {"error":"Not Found","statusCode":404} (MAP:MAP)
+  {"message":"Cannot POST /cart/delete","error":"Not Found","statusCode":404}
+  {"message":"product remove cart successfully"}
+
+
+src/test/java/ztrainapi/products/products.feature:9
+11:25:52.350 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:26:26.901 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:26:27.034 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:26:27.034 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649154387034
+11:26:27.937 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+11:26:30.189 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2247
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-uGnT3PGUJQPwuz7j+lqOxV3eaT4"
+1 < Date: Tue, 05 Apr 2022 10:26:29 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NDM4OSwiZXhwIjoxNjQ5MjQwNzg5fQ.9F15hZAr41oox6pcaG87RcHRvycsw3puEX9tcShVM38"}
+11:26:30.208 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:26:31.925 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1717
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 43
+1 < Etag: W/"2b-hGShxOkieaAVDloBubJVM+h58D8"
+1 < Date: Tue, 05 Apr 2022 10:26:31 GMT
+1 < Via: 1.1 vegur
+{"message":"Unauthorized","statusCode":401}
+11:26:31.938 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:9
+Then match response == {"message": "product remove cart successfully"}
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"statusCode":401} (MAP:MAP)
+  {"message":"Unauthorized","statusCode":401}
+  {"message":"product remove cart successfully"}
+
+
+src/test/java/ztrainapi/products/products.feature:9
+11:26:32.440 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:32:41.107 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:32:41.246 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:32:41.247 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649154761247
+11:32:42.009 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:4
+* def signIn = call read('userSignin.feature')
+>>>> js failed:
+01: read('userSignin.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/ztrainapi/products/userSignin.feature (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:73)
+- com.intuit.karate.core.Feature.read(Feature.java:67)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/ztrainapi/products/products.feature:4
+11:32:42.471 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:51:44.242 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:51:44.447 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:51:44.448 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649155904448
+11:51:45.224 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:4
+* def signIn = call read('userSignin.feature')
+>>>> js failed:
+01: read('userSignin.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/ztrainapi/products/userSignin.feature (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:73)
+- com.intuit.karate.core.Feature.read(Feature.java:67)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/ztrainapi/products/products.feature:4
+11:51:45.716 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:52:19.405 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:52:19.544 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:52:19.544 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649155939544
+11:52:20.246 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:4
+* def signIn = call read('userSignin.feature')
+>>>> js failed:
+01: read('userSignin.feature')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /home/zeufack/programming/java/testing/karate/ztrain/src/test/java/ztrainapi/products/userSignin.feature (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:73)
+- com.intuit.karate.core.Feature.read(Feature.java:67)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:64)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/ztrainapi/products/products.feature:4
+11:52:20.777 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:53:05.886 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:53:06.053 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:53:06.055 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649155986054
+11:53:07.253 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+11:53:14.182 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 6926
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-5TJaAqANyTz4AmbVfTZ/Mo5FgmQ"
+1 < Date: Tue, 05 Apr 2022 10:53:13 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NTk5MywiZXhwIjoxNjQ5MjQyMzkzfQ.PD9yjj9_5rvUcrVOpiRXAwLDiuUZxfRFfYY4jZWxeaQ"}
+11:53:14.198 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer undefined
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:53:15.367 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1168
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 43
+1 < Etag: W/"2b-hGShxOkieaAVDloBubJVM+h58D8"
+1 < Date: Tue, 05 Apr 2022 10:53:15 GMT
+1 < Via: 1.1 vegur
+{"message":"Unauthorized","statusCode":401}
+11:53:15.385 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:10
+Then match response == {"message": "product remove cart successfully"}
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"statusCode":401} (MAP:MAP)
+  {"message":"Unauthorized","statusCode":401}
+  {"message":"product remove cart successfully"}
+
+
+src/test/java/ztrainapi/products/products.feature:10
+11:53:15.852 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:57:56.978 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:57:57.189 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:57:57.189 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649156277189
+11:57:58.230 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+11:58:01.254 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 3022
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-sLlS+8rbWtBRLqhtPUjVblBGkSM"
+1 < Date: Tue, 05 Apr 2022 10:58:00 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NjI4MCwiZXhwIjoxNjQ5MjQyNjgwfQ.5bVEN1j-Yv2ZGcw8QLBicvlNaZrIICiAb8i6X_GYjcM"}
+11:58:01.274 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - [print] Bearer undefined 
+11:58:01.278 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer undefined
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:58:02.984 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1705
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 43
+1 < Etag: W/"2b-hGShxOkieaAVDloBubJVM+h58D8"
+1 < Date: Tue, 05 Apr 2022 10:58:02 GMT
+1 < Via: 1.1 vegur
+{"message":"Unauthorized","statusCode":401}
+11:58:03.001 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:11
+Then match response == {"message": "product remove cart successfully"}
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"statusCode":401} (MAP:MAP)
+  {"message":"Unauthorized","statusCode":401}
+  {"message":"product remove cart successfully"}
+
+
+src/test/java/ztrainapi/products/products.feature:11
+11:58:03.460 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+11:59:06.130 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+11:59:06.257 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:59:06.258 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649156346258
+11:59:07.230 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+11:59:14.858 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 7621
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-T4wCBV77PnMW57c1nvGE2yd5pyc"
+1 < Date: Tue, 05 Apr 2022 10:59:14 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NjM1NCwiZXhwIjoxNjQ5MjQyNzU0fQ.Ottt7Tmr9eWotldRMYWdpEbqZIZBggVLG5WUnlLqF5c"}
+11:59:14.888 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - [print] {
+  "baseUrl": "https://ztrain-shop.herokuapp.com",
+  "responseHeaders": {
+    "Server": [
+      "Cowboy"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Access-Control-Allow-Origin": [
+      "*"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Content-Length": [
+      "331"
+    ],
+    "Etag": [
+      "W/\"14b-T4wCBV77PnMW57c1nvGE2yd5pyc\""
+    ],
+    "Date": [
+      "Tue, 05 Apr 2022 10:59:14 GMT"
+    ],
+    "Via": [
+      "1.1 vegur"
+    ]
+  },
+  "response": {
+    "user": {
+      "createdAt": "2022-02-17T15:14:20.932Z",
+      "__v": 0,
+      "adress": "douala bassong",
+      "_id": "620f561ae826bc0b18331a6e",
+      "age": 10,
+      "email": "test@test.com"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NjM1NCwiZXhwIjoxNjQ5MjQyNzU0fQ.Ottt7Tmr9eWotldRMYWdpEbqZIZBggVLG5WUnlLqF5c"
+  },
+  "env": "dev",
+  "myVarName": "someValue",
+  "responseStatus": 201,
+  "user": {
+    "email": "test@test.com",
+    "password": "12345678"
+  }
+}
+ 
+11:59:14.892 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer undefined
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:59:17.682 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2788
+1 < 401
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 43
+1 < Etag: W/"2b-hGShxOkieaAVDloBubJVM+h58D8"
+1 < Date: Tue, 05 Apr 2022 10:59:17 GMT
+1 < Via: 1.1 vegur
+{"message":"Unauthorized","statusCode":401}
+11:59:17.712 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:11
+Then match response == {"message": "product remove cart successfully"}
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"statusCode":401} (MAP:MAP)
+  {"message":"Unauthorized","statusCode":401}
+  {"message":"product remove cart successfully"}
+
+
+src/test/java/ztrainapi/products/products.feature:11
+11:59:18.195 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+12:00:22.207 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+12:00:22.337 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:00:22.337 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649156422337
+12:00:23.310 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+12:00:32.212 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 8894
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-NiIKqQxEDAwnqakor2HG9LyWZLM"
+1 < Date: Tue, 05 Apr 2022 11:00:31 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NjQzMSwiZXhwIjoxNjQ5MjQyODMxfQ.0Obb3C3HC9CJePw29IbTP1VGmk6rcfHU6iWLS0CkwTI"}
+12:00:32.236 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - [print] {
+  "baseUrl": "https://ztrain-shop.herokuapp.com",
+  "responseHeaders": {
+    "Server": [
+      "Cowboy"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Access-Control-Allow-Origin": [
+      "*"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Content-Length": [
+      "331"
+    ],
+    "Etag": [
+      "W/\"14b-NiIKqQxEDAwnqakor2HG9LyWZLM\""
+    ],
+    "Date": [
+      "Tue, 05 Apr 2022 11:00:31 GMT"
+    ],
+    "Via": [
+      "1.1 vegur"
+    ]
+  },
+  "response": {
+    "user": {
+      "createdAt": "2022-02-17T15:14:20.932Z",
+      "__v": 0,
+      "adress": "douala bassong",
+      "_id": "620f561ae826bc0b18331a6e",
+      "age": 10,
+      "email": "test@test.com"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NjQzMSwiZXhwIjoxNjQ5MjQyODMxfQ.0Obb3C3HC9CJePw29IbTP1VGmk6rcfHU6iWLS0CkwTI"
+  },
+  "env": "dev",
+  "myVarName": "someValue",
+  "responseStatus": 201,
+  "user": {
+    "email": "test@test.com",
+    "password": "12345678"
+  }
+}
+ 
+12:00:32.240 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NjQzMSwiZXhwIjoxNjQ5MjQyODMxfQ.0Obb3C3HC9CJePw29IbTP1VGmk6rcfHU6iWLS0CkwTI
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:00:34.335 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2094
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 112
+1 < Etag: W/"70-Wt3aEXBCifOV9UywqbvWFxtW9sg"
+1 < Date: Tue, 05 Apr 2022 11:00:34 GMT
+1 < Via: 1.1 vegur
+{"message":["product should not be empty","user_id should not be empty"],"error":"Bad Request","statusCode":400}
+12:00:34.367 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:11
+Then match response == {"message": "product remove cart successfully"}
+match failed: EQUALS
+  $ | not equal | actual has 2 more key(s) than expected - {"error":"Bad Request","statusCode":400} (MAP:MAP)
+  {"message":["product should not be empty","user_id should not be empty"],"error":"Bad Request","statusCode":400}
+  {"message":"product remove cart successfully"}
+
+
+src/test/java/ztrainapi/products/products.feature:11
+12:00:34.857 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+12:01:04.990 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+12:01:05.140 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:01:05.140 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649156465140
+12:01:06.086 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+12:01:12.422 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 6331
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-2SVdpODCEwLWrqkO5P5hpOEVw8o"
+1 < Date: Tue, 05 Apr 2022 11:01:12 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NjQ3MiwiZXhwIjoxNjQ5MjQyODcyfQ.pawASiNXZLzNdaTv8vN3N2G2iDjv9ehNA1sKzUHoDf4"}
+12:01:12.446 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - [print] Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NjQ3MiwiZXhwIjoxNjQ5MjQyODcyfQ.pawASiNXZLzNdaTv8vN3N2G2iDjv9ehNA1sKzUHoDf4 
+12:01:12.449 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NjQ3MiwiZXhwIjoxNjQ5MjQyODcyfQ.pawASiNXZLzNdaTv8vN3N2G2iDjv9ehNA1sKzUHoDf4
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:01:14.904 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2455
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 112
+1 < Etag: W/"70-Wt3aEXBCifOV9UywqbvWFxtW9sg"
+1 < Date: Tue, 05 Apr 2022 11:01:14 GMT
+1 < Via: 1.1 vegur
+{"message":["product should not be empty","user_id should not be empty"],"error":"Bad Request","statusCode":400}
+12:01:14.915 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:11
+Then match response == {"message": "product remove cart successfully"}
+match failed: EQUALS
+  $ | not equal | actual has 2 more key(s) than expected - {"error":"Bad Request","statusCode":400} (MAP:MAP)
+  {"message":["product should not be empty","user_id should not be empty"],"error":"Bad Request","statusCode":400}
+  {"message":"product remove cart successfully"}
+
+
+src/test/java/ztrainapi/products/products.feature:11
+12:01:15.503 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+12:09:08.614 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+12:09:08.760 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:09:08.761 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649156948760
+12:09:08.779 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+12:09:09.663 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+12:09:16.129 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 6460
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-aNhIO+m8E1K/y9YliJ5Q41wNF8Y"
+1 < Date: Tue, 05 Apr 2022 11:09:15 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1Njk1NSwiZXhwIjoxNjQ5MjQzMzU1fQ.GYRgQE2vPh2_ywp5WldsM-DUpJnExLUdULF-U7KXX6U"}
+12:09:16.152 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - [print] Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1Njk1NSwiZXhwIjoxNjQ5MjQzMzU1fQ.GYRgQE2vPh2_ywp5WldsM-DUpJnExLUdULF-U7KXX6U 
+12:09:16.155 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1Njk1NSwiZXhwIjoxNjQ5MjQzMzU1fQ.GYRgQE2vPh2_ywp5WldsM-DUpJnExLUdULF-U7KXX6U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user_id":"ljdsfkljdsjfoel","product_id":"jldsjfkjsoeibsle"}
+
+12:09:18.620 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2464
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 82
+1 < Etag: W/"52-rvzqm08PDthdEB4EBEcD68ZPMDg"
+1 < Date: Tue, 05 Apr 2022 11:09:18 GMT
+1 < Via: 1.1 vegur
+{"message":["product should not be empty"],"error":"Bad Request","statusCode":400}
+12:09:18.653 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:12
+Then match response == {"message": "product remove cart successfully"}
+match failed: EQUALS
+  $ | not equal | actual has 2 more key(s) than expected - {"error":"Bad Request","statusCode":400} (MAP:MAP)
+  {"message":["product should not be empty"],"error":"Bad Request","statusCode":400}
+  {"message":"product remove cart successfully"}
+
+
+src/test/java/ztrainapi/products/products.feature:12
+12:09:19.121 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+12:10:19.448 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+12:10:19.586 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:10:19.587 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649157019587
+12:10:19.609 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+12:10:20.495 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+12:10:22.835 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2337
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-sMG6svirLTWhBFWJBodGfbEj2IE"
+1 < Date: Tue, 05 Apr 2022 11:10:22 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NzAyMiwiZXhwIjoxNjQ5MjQzNDIyfQ.yoc8P46DSKxzPN8jaXmI_Gl-t91tNWiHVGhNItiCE8o"}
+12:10:22.860 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NzAyMiwiZXhwIjoxNjQ5MjQzNDIyfQ.yoc8P46DSKxzPN8jaXmI_Gl-t91tNWiHVGhNItiCE8o
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"product":"jldsjfkjsoeibsle","user_id":"ljdsfkljdsjfoel"}
+
+12:10:24.466 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1605
+1 < 500
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Etag: W/"54-+u88bGJAmroOW0HC1k/RJ/vyWa4"
+1 < Date: Tue, 05 Apr 2022 11:10:24 GMT
+1 < Via: 1.1 vegur
+{"message":"cannot delete product","error":"Internal Server Error","statusCode":500}
+12:10:24.477 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:12
+Then match response == {"message": "product remove cart successfully"}
+match failed: EQUALS
+  $ | not equal | actual has 2 more key(s) than expected - {"error":"Internal Server Error","statusCode":500} (MAP:MAP)
+  {"message":"cannot delete product","error":"Internal Server Error","statusCode":500}
+  {"message":"product remove cart successfully"}
+
+
+src/test/java/ztrainapi/products/products.feature:12
+12:10:24.983 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+12:12:40.095 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+12:12:40.232 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:12:40.232 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649157160232
+12:12:40.250 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+12:12:41.183 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+12:12:44.704 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 3519
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-/S382+UfwoKQCKd7SoEtYjjfaiE"
+1 < Date: Tue, 05 Apr 2022 11:12:43 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NzE2MywiZXhwIjoxNjQ5MjQzNTYzfQ.l0DEXUnKBYhiA9iuwV5CAmkaLxYMNiW2X7L4TIOcM-I"}
+12:12:44.719 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE1NzE2MywiZXhwIjoxNjQ5MjQzNTYzfQ.l0DEXUnKBYhiA9iuwV5CAmkaLxYMNiW2X7L4TIOcM-I
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 58
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"product":"jldsjfkjsoeibsle","user_id":"ljdsfkljdsjfoel"}
+
+12:12:48.570 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 3850
+1 < 500
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Etag: W/"54-+u88bGJAmroOW0HC1k/RJ/vyWa4"
+1 < Date: Tue, 05 Apr 2022 11:12:48 GMT
+1 < Via: 1.1 vegur
+{"message":"cannot delete product","error":"Internal Server Error","statusCode":500}
+12:12:49.085 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+15:41:16.354 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:41:16.522 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:41:16.523 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649169676523
+15:41:16.545 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+15:41:17.751 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+15:41:30.321 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 12563
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-t8k3njibZv0lgx//zhZ2XccUORY"
+1 < Date: Tue, 05 Apr 2022 14:41:30 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE2OTY5MCwiZXhwIjoxNjQ5MjU2MDkwfQ.goEEfwOP_-E89w__mN0k83MPERBhG0kDjBHcR_aDmtg"}
+15:41:30.356 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/cart/?id=lsfjldjfldf
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:41:35.092 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 4734
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Etag: W/"54-g0Jw1zLQibB2wp/yVo0DUTXKgGg"
+1 < Date: Tue, 05 Apr 2022 14:41:34 GMT
+1 < Via: 1.1 vegur
+{"message":"Cannot POST \/cart\/?id=lsfjldjfldf","error":"Not Found","statusCode":404}
+15:41:35.098 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:18
+Then status == 404
+no step-definition method match found for: status == 404
+src/test/java/ztrainapi/products/products.feature:18
+15:41:35.558 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+15:42:13.525 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:42:13.648 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:42:13.649 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649169733649
+15:42:13.670 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+15:42:14.519 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+15:42:16.156 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1635
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-WszzBWYFNGdad2sg8Sg2jCDd+vs"
+1 < Date: Tue, 05 Apr 2022 14:42:16 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE2OTczNiwiZXhwIjoxNjQ5MjU2MTM2fQ.9iVt1Y8LfDolvPIqhKkdihBtlK2z4sodZ35Ij1sAFTU"}
+15:42:16.188 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/cart/?id=lsfjldjfldf
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:42:18.214 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2026
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Etag: W/"54-g0Jw1zLQibB2wp/yVo0DUTXKgGg"
+1 < Date: Tue, 05 Apr 2022 14:42:17 GMT
+1 < Via: 1.1 vegur
+{"message":"Cannot POST \/cart\/?id=lsfjldjfldf","error":"Not Found","statusCode":404}
+15:42:18.669 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+15:43:09.220 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:43:09.345 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:43:09.345 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649169789345
+15:43:09.362 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+15:43:10.200 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+15:43:13.524 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 3317
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-VhPSXiJ9BNNGYXatUcpvTT1rSwk"
+1 < Date: Tue, 05 Apr 2022 14:43:13 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE2OTc5MywiZXhwIjoxNjQ5MjU2MTkzfQ.V6RfoLCOLuL2wM7LOTsjkrFuID2qWzuhivKdNY9Pg7s"}
+15:43:13.543 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:16
+And param  user_id = "lsfjldjfldf"
+no step-definition method match found for: param  user_id = "lsfjldjfldf"
+src/test/java/ztrainapi/products/products.feature:16
+15:43:14.030 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+15:43:58.338 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:43:58.466 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:43:58.467 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649169838467
+15:43:58.484 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+15:43:59.326 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+15:44:06.955 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 7626
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-MT/a62N9kEfe0V6THDefkgwpcl8"
+1 < Date: Tue, 05 Apr 2022 14:44:06 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE2OTg0NiwiZXhwIjoxNjQ5MjU2MjQ2fQ.CDQtCaQnrhp-hdLTLzCcArel6B8lXl1myxqTa6Zq4lI"}
+15:44:06.980 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/cart/?id=lsfjldjfldf
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE2OTg0NiwiZXhwIjoxNjQ5MjU2MjQ2fQ.CDQtCaQnrhp-hdLTLzCcArel6B8lXl1myxqTa6Zq4lI
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:44:08.457 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1476
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Etag: W/"54-g0Jw1zLQibB2wp/yVo0DUTXKgGg"
+1 < Date: Tue, 05 Apr 2022 14:44:08 GMT
+1 < Via: 1.1 vegur
+{"message":"Cannot POST \/cart\/?id=lsfjldjfldf","error":"Not Found","statusCode":404}
+15:44:08.957 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+15:54:05.084 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:54:05.302 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:54:05.302 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649170445302
+15:54:05.326 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 24
+15:54:06.447 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+15:54:09.312 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2859
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-FM5WFQLeGtZecqmreBDdC78j/bk"
+1 < Date: Tue, 05 Apr 2022 14:54:08 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE3MDQ0OCwiZXhwIjoxNjQ5MjU2ODQ4fQ.bRhksgHuZBIYEAglmbYSg52zhV5LkLR8mLyJNzgeft8"}
+15:54:09.330 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:6
+* det user_id = signIn.response.token.user._id
+no step-definition method match found for: det user_id = signIn.response.token.user._id
+src/test/java/ztrainapi/products/products.feature:6
+15:54:09.919 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+15:54:59.983 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:55:00.145 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:55:00.146 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649170500146
+15:55:00.174 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 24
+15:55:01.159 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+15:55:03.895 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2729
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-gMiOe2LJm6DDQ1vPImNjOj77S34"
+1 < Date: Tue, 05 Apr 2022 14:55:03 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE3MDUwMywiZXhwIjoxNjQ5MjU2OTAzfQ.aKqb86pLw1inDJeiUiNlP2gzDrIzMw47Z4Ijx9kdsFU"}
+15:55:03.933 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:6
+* def user_id = signIn.response.token.user._id
+>>>> js failed:
+01: signIn.response.token.user._id
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "_id" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/ztrainapi/products/products.feature:6
+15:55:04.355 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+15:55:41.689 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+15:55:41.883 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:55:41.885 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649170541884
+15:55:41.925 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 24
+15:55:42.914 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+15:55:44.951 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2031
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-n0kBDN4tTc75p+krAGXkXtuwA+E"
+1 < Date: Tue, 05 Apr 2022 14:55:44 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTE3MDU0NCwiZXhwIjoxNjQ5MjU2OTQ0fQ.b8edHohvaUE8tApkZYgRgbwCYfO7ONMuctvL6B6nv9I"}
+15:55:44.991 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > GET https://ztrain-shop.herokuapp.com/cart/?id=620f561ae826bc0b18331a6e
+1 > Authorization: lorem ipsun dollor set
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:55:46.413 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1421
+1 < 404
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 96
+1 < Etag: W/"60-5qJCN6UHxNOUcbrSEK7wy/l8MVY"
+1 < Date: Tue, 05 Apr 2022 14:55:46 GMT
+1 < Via: 1.1 vegur
+{"message":"Cannot GET \/cart\/?id=620f561ae826bc0b18331a6e","error":"Not Found","statusCode":404}
+15:55:46.915 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+09:05:53.182 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+09:05:53.422 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:05:53.424 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649232353424
+09:05:53.449 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 31
+09:05:54.721 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+09:05:57.237 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2510
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-QXyLi1AHDb7gtAYQSp6dFxsA8ZQ"
+1 < Date: Wed, 06 Apr 2022 08:05:56 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTIzMjM1NiwiZXhwIjoxNjQ5MzE4NzU2fQ.9QJEgfyzM9lYMIkZGrL0e7SbKuWpHfig3ZKbPBdiilc"}
+09:05:57.266 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTIzMjM1NiwiZXhwIjoxNjQ5MzE4NzU2fQ.9QJEgfyzM9lYMIkZGrL0e7SbKuWpHfig3ZKbPBdiilc
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user_id":"user_id","product_id":"product_id"}
+
+09:05:58.785 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1517
+1 < 400
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 82
+1 < Etag: W/"52-rvzqm08PDthdEB4EBEcD68ZPMDg"
+1 < Date: Wed, 06 Apr 2022 08:05:58 GMT
+1 < Via: 1.1 vegur
+{"message":["product should not be empty"],"error":"Bad Request","statusCode":400}
+09:05:58.791 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:36
+Then status 404
+status code was: 400, expected: 404, response time in milliseconds: 1517, url: https://ztrain-shop.herokuapp.com/cart/delete, response: 
+{"statusCode":400,"message":["product should not be empty"],"error":"Bad Request"}
+src/test/java/ztrainapi/products/products.feature:36
+09:05:59.351 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature
+09:06:43.810 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.0.1
+09:06:44.017 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:06:44.018 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1649232404018
+09:06:44.044 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 31
+09:06:45.044 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > POST https://ztrain-shop.herokuapp.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 47
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"password":"12345678","email":"test@test.com"}
+
+09:06:47.550 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 2499
+1 < 201
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 331
+1 < Etag: W/"14b-tx//l1hIzanxCfvllNuk43a00iw"
+1 < Date: Wed, 06 Apr 2022 08:06:47 GMT
+1 < Via: 1.1 vegur
+{"user":{"createdAt":"2022-02-17T15:14:20.932Z","__v":0,"adress":"douala bassong","_id":"620f561ae826bc0b18331a6e","age":10,"email":"test@test.com"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTIzMjQwNywiZXhwIjoxNjQ5MzE4ODA3fQ.mDnak6oOLWKo5OJYxbzNeRGme1-yW516K4GbmHkNTjk"}
+09:06:47.579 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > DELETE https://ztrain-shop.herokuapp.com/cart/delete
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMGY1NjFhZTgyNmJjMGIxODMzMWE2ZSIsImlhdCI6MTY0OTIzMjQwNywiZXhwIjoxNjQ5MzE4ODA3fQ.mDnak6oOLWKo5OJYxbzNeRGme1-yW516K4GbmHkNTjk
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 44
+1 > Host: ztrain-shop.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"product":"product_id","user_id":"user_id"}
+
+09:06:49.577 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1997
+1 < 500
+1 < Server: Cowboy
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Etag: W/"54-+u88bGJAmroOW0HC1k/RJ/vyWa4"
+1 < Date: Wed, 06 Apr 2022 08:06:49 GMT
+1 < Via: 1.1 vegur
+{"message":"cannot delete product","error":"Internal Server Error","statusCode":500}
+09:06:49.584 [com.intuit.karate.cli.Main.main()] ERROR com.intuit.karate - src/test/java/ztrainapi/products/products.feature:36
+Then status 404
+status code was: 500, expected: 404, response time in milliseconds: 1997, url: https://ztrain-shop.herokuapp.com/cart/delete, response: 
+{"statusCode":500,"message":"cannot delete product","error":"Internal Server Error"}
+src/test/java/ztrainapi/products/products.feature:36
+09:06:50.130 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/ztrainapi/products/products.feature

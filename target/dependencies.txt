@@ -1,0 +1,29 @@
+digraph "com.pawk.www:ztrain:jar:1.0-SNAPSHOT" { 
+	"com.pawk.www:ztrain:jar:1.0-SNAPSHOT" -> "com.intuit.karate:karate-junit5:jar:1.0.1:test" ; 
+	"com.intuit.karate:karate-junit5:jar:1.0.1:test" -> "com.intuit.karate:karate-core:jar:1.0.1:test" ; 
+	"com.intuit.karate:karate-junit5:jar:1.0.1:test" -> "org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test" ; 
+	"com.intuit.karate:karate-junit5:jar:1.0.1:test" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.7.0:test" ; 
+	"com.intuit.karate:karate-core:jar:1.0.1:test" -> "org.graalvm.js:js-scriptengine:jar:21.0.0:test" ; 
+	"com.intuit.karate:karate-core:jar:1.0.1:test" -> "org.graalvm.js:js:jar:21.0.0:test" ; 
+	"com.intuit.karate:karate-core:jar:1.0.1:test" -> "ch.qos.logback:logback-classic:jar:1.2.3:test" ; 
+	"com.intuit.karate:karate-core:jar:1.0.1:test" -> "org.slf4j:jcl-over-slf4j:jar:1.7.25:test" ; 
+	"com.intuit.karate:karate-core:jar:1.0.1:test" -> "com.jayway.jsonpath:json-path:jar:2.5.0:test" ; 
+	"com.intuit.karate:karate-core:jar:1.0.1:test" -> "info.cukes:cucumber-java:jar:1.2.5:test" ; 
+	"com.intuit.karate:karate-core:jar:1.0.1:test" -> "org.yaml:snakeyaml:jar:1.27:test" ; 
+	"com.intuit.karate:karate-core:jar:1.0.1:test" -> "de.siegmar:fastcsv:jar:1.0.4:test" ; 
+	"com.intuit.karate:karate-core:jar:1.0.1:test" -> "info.picocli:picocli:jar:4.5.2:test" ; 
+	"org.graalvm.js:js-scriptengine:jar:21.0.0:test" -> "org.graalvm.sdk:graal-sdk:jar:21.0.0:test" ; 
+	"org.graalvm.js:js:jar:21.0.0:test" -> "org.graalvm.regex:regex:jar:21.0.0:test" ; 
+	"org.graalvm.js:js:jar:21.0.0:test" -> "org.graalvm.truffle:truffle-api:jar:21.0.0:test" ; 
+	"org.graalvm.js:js:jar:21.0.0:test" -> "com.ibm.icu:icu4j:jar:67.1:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:test" -> "ch.qos.logback:logback-core:jar:1.2.3:test" ; 
+	"ch.qos.logback:logback-classic:jar:1.2.3:test" -> "org.slf4j:slf4j-api:jar:1.7.25:test" ; 
+	"com.jayway.jsonpath:json-path:jar:2.5.0:test" -> "net.minidev:json-smart:jar:2.3:test" ; 
+	"net.minidev:json-smart:jar:2.3:test" -> "net.minidev:accessors-smart:jar:1.2:test" ; 
+	"net.minidev:accessors-smart:jar:1.2:test" -> "org.ow2.asm:asm:jar:5.0.4:test" ; 
+	"info.cukes:cucumber-java:jar:1.2.5:test" -> "info.cukes:cucumber-core:jar:1.2.5:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.7.0:test" -> "org.junit.platform:junit-platform-commons:jar:1.7.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.7.0:test" -> "org.junit.platform:junit-platform-engine:jar:1.7.0:test" ; 
+ } 
